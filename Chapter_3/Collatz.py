@@ -32,7 +32,7 @@ def Collatz(number):
     
 while True:
     try:
-        input_number = int(input("Pick a number: 6"))
+        input_number = int(input("Pick a number: "))
         while input_number != 1:
             input_number = Collatz(input_number)
     except:
